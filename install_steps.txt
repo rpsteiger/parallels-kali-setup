@@ -13,10 +13,8 @@ https://kb.parallels.com/en/124805
 └─$ sudo dpkg -i linux-headers-5.16.0-kali7-common_5.16.18-1kali1_all.deb 
 └─$ sudo dpkg -i linux-headers-5.16.0-kali7-arm64_5.16.18-1kali1_arm64.deb
 
-└─$ sudo apt-get install dkms
-└─$ sudo apt-get install libelf-dev
+└─$ sudo apt-get -y install dkms
+└─$ sudo apt-get -y install libelf-dev
 
-
-└─$ sudo eject /media/cdrom
 └─$ sudo mount /dev/cdrom /media/cdrom
 └─$ sudo /media/cdrom/install
