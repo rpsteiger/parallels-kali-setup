@@ -5,9 +5,9 @@ how to mount the correct iso image to install parallel tools:
 https://kb.parallels.com/en/124805
 
 
-└─$ wget http://old.kali.org/kali/pool/main/l/linux-kbuild-5.16_5.16.18-1kali1_arm64.deb 
-└─$ wget http://old.kali.org/kali/pool/main/l/linux-headers-5.16.0-kali7-common_5.16.18-1kali1_all.deb 
-└─$ wget http://old.kali.org/kali/pool/main/l/linux-kbuild-5.16-dbgsym_5.16.18-1kali1_arm64.deb
+└─$ wget http://old.kali.org/kali/pool/main/l/linux/linux-kbuild-5.16_5.16.18-1kali1_arm64.deb 
+└─$ wget http://old.kali.org/kali/pool/main/l/linux/linux-headers-5.16.0-kali7-common_5.16.18-1kali1_all.deb 
+└─$ wget http://old.kali.org/kali/pool/main/l/linux/linux-headers-5.16.0-kali7-arm64_5.16.18-1kali1_arm64.deb
 
 └─$ sudo dpkg -i linux-kbuild-5.16_5.16.18-1kali1_arm64.deb 
 └─$ sudo dpkg -i linux-headers-5.16.0-kali7-common_5.16.18-1kali1_all.deb 
