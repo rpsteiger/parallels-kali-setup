@@ -16,6 +16,7 @@ https://kb.parallels.com/en/124805
 └─$ sudo apt-get install dkms
 └─$ sudo apt-get install libelf-dev
 
+
 └─$ sudo eject /media/cdrom
 └─$ sudo mount /dev/cdrom /media/cdrom
 └─$ sudo /media/cdrom/install
